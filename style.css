@@ -1,0 +1,39 @@
+body{
+	background-color: #D62274;
+}
+
+div.div_titre{
+	font-weight: bold;
+	position: absolute;
+	font-family: Cooper Black;
+	font-size: 28pt;
+	left: 380px;
+
+}
+
+img.img_p1{
+	position: absolute;
+	left: -20px;
+	top: -110px;
+	border: 4px solid black;
+	border-bottom-right-radius:100px;
+
+	
+}
+
+div.box_droite{
+	border: 10px solid black;
+	width: 205px;
+	height: 605px;
+	top: 0px;
+	position: absolute;
+	left: 1141px;
+	background-color: #FA6E1E;
+}
+
+span.actus{
+	padding-left: 35px;
+	font-family: verdana;
+	font-size: 15pt;
+}
+
