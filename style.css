@@ -8,6 +8,7 @@ div.div_titre{
 	font-family: Cooper Black;
 	font-size: 28pt;
 	left: 380px;
+	text-shadow: 2px 2px  purple;
 
 }
 
@@ -23,7 +24,7 @@ img.img_p1{
 
 div.box_droite{
 	border: 10px solid black;
-	width: 205px;
+	width: auto;
 	height: 605px;
 	top: 0px;
 	position: absolute;
@@ -32,8 +33,17 @@ div.box_droite{
 }
 
 span.actus{
-	padding-left: 35px;
 	font-family: verdana;
 	font-size: 15pt;
 }
 
+button.btn_bulletin{
+	position: absolute;
+	background-color: yellow;
+	top: 400px;
+	width: 210px;
+	height: 70px;
+	font-size: 12pt;
+	border: 5px solid black;
+	border-radius: 10px;
+}
