@@ -40,10 +40,26 @@ span.actus{
 button.btn_bulletin{
 	position: absolute;
 	background-color: yellow;
-	top: 400px;
+	top: 375px;
+	left: -5px;
 	width: 210px;
 	height: 70px;
 	font-size: 12pt;
 	border: 5px solid black;
-	border-radius: 10px;
+	border-bottom-right-radius:60px;
+}
+
+button.btn_assoss{
+	position: absolute;
+	top: 100px;
+	left: 490px;
+	background-color: brown;
+	font-size: 15pt;
+	font-weight: bold;
+	font-family: arial;
+	width: 280px;
+	height: 100px;
+	border: 8px solid purple;
+	border-radius: 15px;
+	text-align: center;
 }
