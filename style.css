@@ -122,3 +122,26 @@ img.chargement{
 	top: 120px;
 	visibility: hidden;
 }
+
+div.bienvenue p{
+	position: absolute;
+	left: 540px;
+	top: 100px;
+	color: purple;
+	font-size: 45pt;
+	visibility: hidden;
+}
+
+button.btn_planning{
+	position: absolute;
+	left: 540px;
+	top: 100px;
+	color: purple;
+	visibility: hidden;
+	background-color: orange;
+	font-size: 12pt;
+	font-family: verdana;
+	width: 280px;
+	height: 60px;
+
+}

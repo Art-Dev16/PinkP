@@ -26,7 +26,13 @@ function valider(){
 
 function fin_chargement() {
 	document.getElementById("chargement").style.visibility = "hidden";
+	document.getElementById("bienvenue").style.visibility = "visible";
 
+	setTimeout(planning, 3000);
+}
 
+function planning(){
+	document.getElementById("bienvenue").style.visibility = "hidden";
+	document.getElementById("btn_planning").style.visibility = "visible";
 
 }
