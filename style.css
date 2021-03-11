@@ -52,7 +52,7 @@ button.btn_bulletin{
 button.btn_assoss{
 	position: absolute;
 	top: 100px;
-	left: 490px;
+	left: 510px;
 	background-color: brown;
 	font-size: 15pt;
 	font-weight: bold;
@@ -62,4 +62,63 @@ button.btn_assoss{
 	border: 8px solid purple;
 	border-radius: 15px;
 	text-align: center;
+	visibility: visible;
+}
+
+input.nom{
+	position: absolute;
+	left: 470px;
+	top: 140px;
+	visibility: hidden;
+	width: 170px;
+	height: 30px;
+	font-size: 11pt;
+	background-color: skyblue;
+	font-weight: bold;
+	border-radius: 5px;
+}
+input.prenom{
+	position: absolute;
+	left: 680px;
+	top: 140px;
+	visibility: hidden;
+	width: 170px;
+	height: 30px;
+	font-size: 11pt;
+	background-color: skyblue;
+	font-weight: bold;
+	border-radius: 5px;
+}
+input.number{
+	position: absolute;
+	left: 560px;
+	top: 200px;
+	visibility: hidden;
+	width: 230px;
+	height: 30px;
+	font-size: 11pt;
+	background-color: skyblue;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+button.valider{
+	position: absolute;
+	left: 560px;
+	top: 300px;
+	visibility: hidden;
+	width: 230px;
+	height: 30px;
+	font-size: 11pt;
+	background-color: yellow;
+	border: 4px solid black;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+img.chargement{
+	position: absolute;
+	left: 550px;
+	top: 120px;
+	visibility: hidden;
 }
