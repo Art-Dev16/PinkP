@@ -3,6 +3,7 @@ function assoss() {
 
 
 	document.getElementById("assoss").style.visibility = "hidden";
+	document.getElementById("cours").style.visibility = "hidden";
 	document.getElementById("nom").style.visibility = "visible";
 	document.getElementById("prenom").style.visibility = "visible";
 	document.getElementById("number").style.visibility = "visible";
@@ -35,4 +36,17 @@ function planning(){
 	document.getElementById("bienvenue").style.visibility = "hidden";
 	document.getElementById("btn_planning").style.visibility = "visible";
 
+	setTimeout(normal, 8000);
+
+}
+
+function normal(){
+	document.getElementById("assoss").style.visibility = "visible";
+	document.getElementById("cours").style.visibility = "visible";
+	document.getElementById("btn_planning").style.visibility = "hidden";
+
+}
+
+function cours(){
+	document.location.href = "essai.html";
 }
