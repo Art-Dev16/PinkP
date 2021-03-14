@@ -48,5 +48,5 @@ function normal(){
 }
 
 function cours(){
-	document.location.href = "essai.html";
+	document.location.href = "cours.html";
 }
